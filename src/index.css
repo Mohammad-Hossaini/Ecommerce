@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: 254, 169, 40;
+}
+
+.dark {
+  --color-primary: 255, 200, 50;
+}
