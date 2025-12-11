@@ -4,6 +4,7 @@ import React from "react";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Products from "./components/products/Products";
+import TopProducts from "./components/top products/TopProducts";
 import "./index.css";
 export default function App() {
   React.useEffect(() => {
@@ -20,6 +21,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Products />
+      <TopProducts />
     </div>
   );
 }
