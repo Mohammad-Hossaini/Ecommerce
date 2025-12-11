@@ -2,6 +2,7 @@ import AOS from "aos"; // <-- default import
 import "aos/dist/aos.css";
 import React from "react";
 import Bunner from "./components/bunner/Bunner";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Products from "./components/products/Products";
@@ -28,6 +29,7 @@ export default function App() {
       <Bunner />
       <Subscribe />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
