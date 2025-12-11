@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Products from "./components/products/Products";
 import TopProducts from "./components/top products/TopProducts";
 import "./index.css";
+import Subscribe from "./components/subscription/Subscription";
 export default function App() {
   React.useEffect(() => {
     AOS.init({
@@ -24,6 +25,7 @@ export default function App() {
       <Products />
       <TopProducts />
       <Bunner />
+      <Subscribe/>
     </div>
   );
 }
