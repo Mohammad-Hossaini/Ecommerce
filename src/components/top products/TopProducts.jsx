@@ -48,7 +48,7 @@ const TopProducts = ({ handleOrderPopup }) => {
           {ProductsData.map((data) => (
             <div
               data-aos="zoom-in"
-              className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
+              className="cursor-pointer rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
             >
               {/* image section */}
               <div className="h-[100px]">
@@ -67,7 +67,9 @@ const TopProducts = ({ handleOrderPopup }) => {
                   <FaStar className="text-yellow-500" />
                   <FaStar className="text-yellow-500" />
                 </div>
-                <h1 className="text-xl font-bold">{data.title}</h1>
+                <h1 className="text-xl font-bold dark:text-gray-300">
+                  {data.title}
+                </h1>
                 <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2">
                   {data.description}
                 </p>

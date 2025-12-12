@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 const ImageList = [
   {
     id: 1,
-    img: "./women/shopping3.png",
+    img: "./hero/sale2.png",
     title: "Upto 50% off on all Men's Wear",
     description:
       "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -18,7 +18,7 @@ const ImageList = [
   },
   {
     id: 3,
-    img: "./hero/sale.png",
+    img: "./hero/sale3.png",
     title: "70% off on all Products Sale",
     description:
       "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
