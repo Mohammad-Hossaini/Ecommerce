@@ -53,7 +53,7 @@ const Navbar = ({ handleOrderPopup }) => {
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       {/* upper Navbar */}
-      <div className="bg-primary/40 py-2">
+      <div className="bg-primary/40 py-2 relative">
         <div className="container flex justify-between items-center">
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
@@ -64,7 +64,7 @@ const Navbar = ({ handleOrderPopup }) => {
 
           {/* search bar */}
           <div className="flex justify-center items-center gap-4">
-            <div className="relative group hidden sm:block">
+            <div className="hidden sm:block absolute group left-1/2 -translate-x-1/2">
               <input
                 type="text"
                 placeholder="search"
