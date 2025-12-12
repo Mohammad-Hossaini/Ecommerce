@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 const ProductsData = [
   {
     id: 1,
-    img: "./women/women.png",
+    img: "./women/men3.webp",
     title: "Women Ethnic",
     rating: 5.0,
     color: "white",
@@ -35,7 +35,7 @@ const ProductsData = [
   },
   {
     id: 5,
-    img: "./women/women2.jpg",
+      img: "./women/women2.webp",
     title: "Fashin T-Shirt",
     rating: 4.5,
     color: "Pink",
@@ -50,8 +50,10 @@ function Products() {
         {/* Header Section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p className="text-sm text-primay">Top Selling Products for you!</p>
-          <h1 data-aos= "fade-up" className="text-3xl font-bold">Products</h1>
-          <p data-aos= "fade-up" className="text-xs text-gray-400">
+          <h1 data-aos="fade-up" className="text-3xl font-bold">
+            Products
+          </h1>
+          <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
             dolore, adipisci laboriosam officiis provident natus?
           </p>
@@ -63,9 +65,11 @@ function Products() {
             {ProductsData.map((data) => {
               return (
                 <div
-                data-aos= "fade-up"
-                data-aos-delay={data.aosDelay}
-                 key={data.id} className="space-y-3">
+                  data-aos="fade-up"
+                  data-aos-delay={data.aosDelay}
+                  key={data.id}
+                  className="space-y-3"
+                >
                   <img
                     src={data.img}
                     alt=""

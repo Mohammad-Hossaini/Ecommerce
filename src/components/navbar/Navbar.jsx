@@ -57,12 +57,13 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
-              <img src="./logo.png" alt="Logo" className="w-10" /> Shopsy
+              <img src="./shopping_logo2.png" alt="Logo" className="w-10" />{" "}
+              Marketly
             </a>
           </div>
 
           {/* search bar */}
-          <div className="flex justify-between items-center gap-4">
+          <div className="flex justify-center items-center gap-4">
             <div className="relative group hidden sm:block">
               <input
                 type="text"

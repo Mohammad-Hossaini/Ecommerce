@@ -17,7 +17,7 @@ const TestimonialData = [
     id: 3,
     name: "Olivia Brown",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "./peoples/profile-3.jpg",
+    img: "./peoples/profile-5.jpg",
   },
   {
     id: 5,

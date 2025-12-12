@@ -1,5 +1,5 @@
 const BannerImg = {
-  backgroundImage: `url('./website/orange-pattern.jpg')`,
+  backgroundImage: `url('./website/bunner.webp')`,
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
